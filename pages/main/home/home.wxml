@@ -1,0 +1,32 @@
+<!--pages/home/home.wxml-->
+<view class='container'>
+    <!-- 音乐播放按钮部分 -->
+    <block wx:if="{{musicUrl}}">
+        <block wx:if="{{isPlayingMusic}}">
+            <view class="home-music-container" bindtap="playBackgroundMusic">
+                <image src="/images/home/music_icon.png" class="music-icon music-icon-anim" />
+                <image src="/images/home/music_play.png" class="music-play music-pause-anim" />
+            </view>
+        </block>
+        <block wx:else>
+            <view class="home-music-container" bindtap="playBackgroundMusic">
+                <image src="/images/home/music_icon.png" class="music-icon" />
+                <image src="/images/home/music_play.png" class="music-play music-play-anim" />
+            </view>
+        </block>
+    </block>
+
+    <!-- swiper部分 -->
+    <swiper indicator-dots='{{swiperOption.indicatorDots}}' autoplay='{{swiperOption.autoplay}}' interval='{{swiperOption.interval}}' duration='{{swiperOption.duration}}'>
+        <block wx:for='{{swiperData}}' wx:key='imgUrl'>
+            <swiper-item catchtap='hanlderCarouseItemTap' data-index='{{item.index}}'>
+                <image src='{{item.imgUrl}}'></image>
+            </swiper-item>
+        </block>
+    </swiper>
+
+    <!-- 列表部分 -->
+    <block wx:for="{{swiperData}}" wx:key="imgUrl">
+        <top-home-list-item bind:viewdetail="toViewDetail" mListItemObj="{{ item }}" />
+    </block>
+</view>

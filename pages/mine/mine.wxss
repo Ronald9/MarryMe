@@ -1,0 +1,30 @@
+/* pages/mine/mine.wxss */
+
+.container {
+    padding: 20rpx;
+    background-color: #a9a9a9;
+    border: 1px solid red;
+    position: relative;
+}
+
+.container image {
+    width: 100%;
+    height: 100%;
+}
+
+.ccc {
+    height: 50rpx;
+
+    border: 1px solid red;
+}
+
+.ddd {
+    height: 450rpx;
+    border: 1px solid blue;
+    padding: 10rpx;
+}
+.aaa {
+    position: absolute;
+    bottom: 40rpx;
+    right: 40rpx;
+}

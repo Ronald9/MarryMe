@@ -1,0 +1,6 @@
+<!--components/com/topevery/home-list/home-list.wxml-->
+<view class='list-item-container' bindtap='toViewDetail'>
+    <view class='list-item-type'>{{mListItemObj.type}}</view>
+    <image class='list-item-img' src='{{mListItemObj.imgUrl}}'></image>
+    <view class='list-item-text'>{{mViewDetailText}}</view>
+</view>

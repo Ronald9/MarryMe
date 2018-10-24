@@ -1,0 +1,64 @@
+/* pages/invitation/invitation.wxss */
+
+page {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: url('https://pengmaster.com/party/wechat/marry/ozfq_zip/HY2A1176.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.inv-title-container {
+    height: 69rpx;
+    position: absolute;
+    top: 100rpx;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.inv-title-container image {
+    height: 69rpx;
+    width: 80%;
+    /* border: 1px solid red; */
+}
+
+.inv-info-container {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    left: 10%;
+    right: 10%;
+    bottom: 50rpx;
+    padding: 15rpx;
+    /* border: 1px solid red; */
+}
+
+.inv-info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30rpx 0;
+    border: 4rpx solid rgba(0, 0, 0, 0.8);
+}
+
+.inv-member {
+    font-size: 50rpx;
+    line-height: 50rpx;
+    margin-bottom: 20rpx;
+    /* border: 1px solid red; */
+}
+
+.inv-text {
+    font-size: 30rpx;
+    text-align: center;
+    margin-top: 5rpx;
+}

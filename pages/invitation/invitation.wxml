@@ -1,0 +1,17 @@
+<!--pages/invitation/invitation.wxml-->
+
+<view class='container'>
+    <view class="inv-title-container">
+        <image src='/images/invitation/invitation.png'></image>
+    </view>
+    <view class='inv-info-container' bindtap='navigateToWeddingSite'>
+        <view class='inv-info-box'>
+            <view class='inv-member'>{{member.husband}}&{{member.wife}}</view>
+            <view class='inv-text'>谨定于 {{member.solar_calendar}}</view>
+            <view class='inv-text'>农历 {{member.lunar_calendar}} 中午 {{member.begin_time}} 整</view>
+            <view class='inv-text'>地址: {{member.address}}</view>
+            <view class='inv-text'>恭请您的光临</view>
+            <view class='inv-text'>(点击导航)</view>
+        </view>
+    </view>
+</view>

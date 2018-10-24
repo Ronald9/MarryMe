@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "首页",
+    "usingComponents": {
+        "top-home-list-item": "/components/com/topevery/home-list-item/home-list-item"
+    }
+}
