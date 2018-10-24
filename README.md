@@ -29,3 +29,4 @@ https://easy-mock.com/mock/5a586ceb3dcb200788d28970/example/v1/navigation/1
 
 只弄了这一个网络请求API数据, 你也可以去用.
 
+最后, 动动你的小手, 点击右上角的 star 来解除老夫身上的印封. 多谢
