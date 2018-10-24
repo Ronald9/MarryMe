@@ -34,6 +34,7 @@ https://easy-mock.com/mock/5a586ceb3dcb200788d28970/example/v1/navigation/1
 
 它将返回如下格式的数据:
 
+```
 {
   "success": true,
   "code": 1,
@@ -50,6 +51,7 @@ https://easy-mock.com/mock/5a586ceb3dcb200788d28970/example/v1/navigation/1
     "latitude": "28.215876"
   }
 }
+```
 
 3: 关于接口 https://easy-mock.com/mock/5a586ceb3dcb200788d28970/example/v1/navigation/1 中的经纬度地址
 
