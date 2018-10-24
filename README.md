@@ -41,17 +41,18 @@ https://easy-mock.com/mock/5a586ceb3dcb200788d28970/example/v1/navigation/1
   "msg": "获取用户数据成功",
   "currentTime": "2018-10-24 10:27:28",
   "data": {
-    "husband": "司马相如",
-    "wife": "卓文君",
-    "solar_calendar": "2019年9月9日",
-    "lunar_calendar": "2019年八月初八",
-    "begin_time": "12:00",
-    "address": "XXX市XXX县XXX镇XXX村喜来登大酒店2楼",
-    "longitude": "112.904501",
+    "husband": "司马相如", // 丈夫
+    "wife": "卓文君",// 妻子
+    "solar_calendar": "2019年9月9日", //阳历
+    "lunar_calendar": "2019年八月初八", //阴历
+    "begin_time": "12:00", //开席时间
+    "address": "XXX市XXX县XXX镇XXX村喜来登大酒店2楼", // 地址
+    "longitude": "112.904501", //经纬度
     "latitude": "28.215876"
   }
 }
 ```
+说明: currentTime 是服务器的当前时间, 以便为客户端提供服务器的校验时间.
 
 3: 关于接口 https://easy-mock.com/mock/5a586ceb3dcb200788d28970/example/v1/navigation/1 中的经纬度地址
 
