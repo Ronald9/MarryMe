@@ -1,4 +1,4 @@
-# MyMarry
+# MarryMe
 forked from pengMaster/marry
 https://github.com/pengMaster/marry
 
